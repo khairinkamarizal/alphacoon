@@ -1,0 +1,1 @@
+!function(a){"use strict";(navigator.userAgent.match(/MSIE/i)||navigator.userAgent.match(/Trident.*rv:11\./))&&a("body").addClass("ie");var i=window.navigator.userAgent||window.navigator.vendor||window.opera;/iPhone|iPod|iPad|Silk|Android|BlackBerry|Opera Mini|IEMobile/.test(i)&&a("body").addClass("smart")}(jQuery);

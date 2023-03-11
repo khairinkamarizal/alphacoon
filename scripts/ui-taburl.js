@@ -1,0 +1,1 @@
+!function(n){"use strict";n.fn.taburl=function(){return this.each(function(){function t(){n('[data-toggle="tab"]').filter(function(){return-1!=location.href.indexOf(n(this).attr("data-target"))}).trigger("click")}t(),n(document).on("Nav:changed",function(){setTimeout(t,50)})}),this}}(jQuery);
